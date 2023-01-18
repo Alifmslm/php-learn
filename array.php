@@ -33,7 +33,19 @@ $sekolah = array(
     "name" => "Alif"
 );
 
-var_dump($sekolah);
+echo "\n";
+
+// array didalam array
+$biodata = array(
+    "id" => "1",
+    "name" => "Alif",
+    "address" => array (
+        "city" => "Bogor",
+        "country" => "Indonesia",
+    )
+);
+
+var_dump($biodata);
 
 
 
