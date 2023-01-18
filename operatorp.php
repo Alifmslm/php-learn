@@ -37,7 +37,15 @@ $total += $chichken;
 $total += $orangeJuice;
 
 echo $total;
+echo "\n";
 
+//operator perbandingan
+echo "Operator Perbandingan";
+echo "\n";
+
+var_dump("10" == 10);
+
+var_dump("10" === 10);
 
 
 ?>
