@@ -46,6 +46,23 @@ echo "\n";
 var_dump("10" == 10);
 
 var_dump("10" === 10);
+echo "\n";
+
+//operator logika
+echo "Operator Logika";
+echo "\n";
+
+var_dump(true && false);
+var_dump(true && true);
+
+var_dump(true || false);
+var_dump(true || true);
+
+var_dump(true xor false);
+var_dump(true xor true);
+
+var_dump(!true);
+var_dump(!false);
 
 
 ?>
