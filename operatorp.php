@@ -64,5 +64,37 @@ var_dump(true xor true);
 var_dump(!true);
 var_dump(!false);
 
+//increment & decreament
+echo "increment & decreament";
+echo"\n";
+echo"\n";
+
+$a = 10;
+$b = $a++;
+
+var_dump($a);
+var_dump($b);
+echo "\n";
+
+//operator array
+echo "Operator Array";
+echo "\n";
+
+$first = array(
+    "last-name" => "Hasna",
+    "first-name" => "Nadia"
+);
+
+$last = array(
+    "first-name" => "Nadia",
+    "last-name" => "Hasna"
+);
+
+$full = $first + $last;
+var_dump($full);
+echo "\n";
+
+var_dump($first == $last);
+var_dump($first === $last);
 
 ?>
