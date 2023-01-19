@@ -97,4 +97,17 @@ echo "\n";
 var_dump($first == $last);
 var_dump($first === $last);
 
+echo "\n";
+
+//Dot Operator
+//--------------
+echo "\n";
+echo "Dot Operetor";
+echo "\n";
+echo "\n";
+
+$name = "Qonita";
+$age = 10;
+var_dump("Nama : " . $name . "\n" . "Umur : " . $age);
+
 ?>
