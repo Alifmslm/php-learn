@@ -13,8 +13,4 @@ for(
 echo "\n";
 echo "\n";
 
-for ($amount = 2; $amount >= 10; $amount++):
-    echo "Ini adlah for loop ke-$amount" . PHP_EOL;
-endfor;
-
 ?>
