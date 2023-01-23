@@ -77,5 +77,28 @@ var_dump($result);
 $result = sum2(100, 100);
 var_dump($result);
 
+echo "\n";
+
+//function built in
+
+echo "Function Built - In";
+echo "\n";
+echo "\n";
+
+//date()
+//untuk menampilkan tanggal dengan format tertentu
+date_default_timezone_set("Asia/jakarta") . PHP_EOL;
+
+//untuk menampilkan (hari, tanggal bulan tahun)
+echo date("D, d m y z") . PHP_EOL;
+echo date("H:i:s") . PHP_EOL;
+
+///detik
+//detik yang sudah berlalu sejak 1 january 1970
+echo time() . PHP_EOL;
+
+//menghitung 100 hari kedepan
+echo date("l, d M Y", time()+60*60*24*1000) . PHP_EOL;
+
 
 ?>
