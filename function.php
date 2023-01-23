@@ -57,6 +57,25 @@ function sum(int $first, int $last) {
 
 sum(100, 100);
 sum("100", "100");
-sum(true, false)
+sum(true, false);
+
+echo "\n";
+
+//Function Return Value
+echo "Function Return Value";
+echo "\n";
+echo "\n";
+
+function sum2(int $first = 10, int $last = 10) : int {
+    $total = $first + $last;
+    return $total . PHP_EOL;
+}
+
+$result = sum2();
+var_dump($result);
+
+$result = sum2(100, 100);
+var_dump($result);
+
 
 ?>
